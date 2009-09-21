@@ -1,17 +1,22 @@
-= game_of_life
+= Game of Life Cucumber Features
 
-Description goes here.
+Building a Conways' Game of Life simulator is a great way to practice different techniques in the language of your choice. This git repository contains a set of cucumber features that describe the rules of Conway's Game of Life. I've also included a few standard, larger patterns that you can use to check multiple generation evolution.
 
-== Note on Patches/Pull Requests
+== How to use
  
-* Fork the project.
-* Make your feature addition or bug fix.
-* Add tests for it. This is important so I don't break it in a
-  future version unintentionally.
-* Commit, do not mess with rakefile, version, or history.
-  (if you want to have your own version, that is fine but
-   bump version in a commit by itself I can ignore when I pull)
-* Send me a pull request. Bonus points for topic branches.
+Fork this repo on github, clone to your local machine and start working. Thanks to the cucumber team's efforts in integrating cucumber with multiple languages, these features can be used to drive development in many different languages, most likely your favorite one.
+
+== How to contribute more
+
+Fork this repository, make your changes, commit them to your github repository and send me a pull request. I'll do my best to integrate interesting patterns.
+
+
+== For more information
+See the wikipedia article on Conway's Game of Life:
+http://en.wikipedia.org/wiki/Conway%27s_Game_of_Life
+
+See the wiki for Cucumber:
+http://github.com/aslakhellesoy/cucumber
 
 == Copyright
 

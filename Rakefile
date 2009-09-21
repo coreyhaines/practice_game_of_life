@@ -4,9 +4,9 @@ require 'rake'
 begin
   require 'jeweler'
   Jeweler::Tasks.new do |gem|
-    gem.name = "game_of_life"
-    gem.summary = %Q{TODO: one-line summary of your gem}
-    gem.description = %Q{TODO: longer description of your gem}
+    gem.name = "practice_game_of_life"
+    gem.summary = %Q{Cucumber features for practicing building game of life simulations}
+    gem.description = %Q{In order to not know when you have a functioning game of life simulator, you can use these cucumber features to check the rules, as well as running a few common patterns.}
     gem.email = "coreyhaines@gmail.com"
     gem.homepage = "http://github.com/coreyhaines/game_of_life"
     gem.authors = ["Corey Haines"]
