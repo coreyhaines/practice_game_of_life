@@ -32,3 +32,18 @@ Feature: Evolving a grid with some cells in it
       | . | . | . | . | . |
       | . | x | . | x | . |
       | . | . | . | . | . |
+
+  Scenario: Multiple dead cells coming to life
+    Given the following setup
+      | . | . | . | . | . |
+      | . | . | . | . | . |
+      | . | x | x | x | . |
+      | . | . | . | . | . |
+      | . | . | . | . | . |
+    When I evolve the board
+    Then I should see the following board
+      | . | . | . | . | . |
+      | . | . | x | . | . |
+      | . | . | . | . | . |
+      | . | . | x | . | . |
+      | . | . | . | . | . |
