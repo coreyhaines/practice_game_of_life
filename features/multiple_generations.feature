@@ -14,14 +14,14 @@ Feature: Evolving a grid over multiple generations
     Then I should see the following board
       | . | . | . | . | . |
       | . | . | x | . | . |
-      | . | . | . | . | . |
+      | . | . | x | . | . |
       | . | . | x | . | . |
       | . | . | . | . | . |
     When I evolve the board
     Then I should see the following board
       | . | . | . | . | . |
       | . | . | . | . | . |
-      | . | . | . | . | . |
+      | . | x | x | x | . |
       | . | . | . | . | . |
       | . | . | . | . | . |
 
