@@ -10,6 +10,10 @@ Fork this repo on github, clone to your local machine and start working. Thanks 
 
 Fork this repository, make your changes, commit them to your github repository and send me a pull request. I'll do my best to integrate interesting patterns.
 
+Thanks to
+James Hunt (ohthatjames)
+- fixed a mistake in cucumber scenarios
+  http://github.com/ohthatjames/practice_game_of_life/commit/96f34711d59ec74a55c5cf4994af08be4c9aa5b1
 
 == For more information
 See the wikipedia article on Conway's Game of Life:
