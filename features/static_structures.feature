@@ -50,7 +50,7 @@ Feature: Cell configurations that are static
       | . | . | . | x | . | . |
       | . | . | . | . | . | . |
 
-  Scenario: Loaf
+  Scenario: Boat
     Given the following setup
       | . | . | . | . | . |
       | . | x | x | . | . |
