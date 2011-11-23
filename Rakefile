@@ -20,8 +20,7 @@ end
 
 require 'rspec/core/rake_task'
 RSpec::Core::RakeTask.new(:spec) do |spec|
-  # spec.rspec_opts = ['--format progress', '--color', '-r ./spec/spec_helper.rb']
-  # spec.rspec_opts = ['--format doc', '--color']
+  spec.rspec_opts = ['--format doc', '--color']
 end
 
 RSpec::Core::RakeTask.new(:rcov) do |spec|
