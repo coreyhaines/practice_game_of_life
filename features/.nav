@@ -1,0 +1,9 @@
+- doc (Documentation):
+  - rules_of_life.md (Rules of Life)
+  - rules_of_simple_design.md (Rules of Simple Design)
+  - source_code.md (Source Code)
+- live_cell.feature
+- dead_cell.feature
+- multiple_cells.feature
+- static_structures.feature
+- multiple_generations.feature
