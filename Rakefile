@@ -34,9 +34,9 @@ end
 begin
   require 'cucumber/rake/task'
   Cucumber::Rake::Task.new(:features) do |f|
-  f.cucumber_opts = "features --format pretty"
-
-  # task :features => :check_dependencies
+    f.cucumber_opts = "features --format pretty"
+    # task :features => :check_dependencies
+  end
 rescue LoadError
   task :features do
     abort "Cucumber is not available. In order to run features, you must: sudo gem install cucumber"
