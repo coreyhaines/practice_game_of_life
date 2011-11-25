@@ -1,7 +1,7 @@
 Feature: Cell configurations that are static
-  In order to create a functioning rules engine
-  As a programmer of Conway's Game of Life
-  I can see static structures surviving in my world
+  In order to create a functioning rules engine  
+  As a programmer of Conway's Game of Life  
+  I can see static structures surviving in my world  
 
   Scenario: Block
     Given the following setup
