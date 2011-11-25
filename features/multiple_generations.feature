@@ -24,4 +24,3 @@ Feature: Evolving a grid over multiple generations
       | . | x | x | x | . |
       | . | . | . | . | . |
       | . | . | . | . | . |
-

@@ -18,6 +18,7 @@ rescue LoadError
   puts "Jeweler (or a dependency) not available. Install it with: sudo gem install jeweler"
 end
 
+require 'rspec'
 require 'rspec/core/rake_task'
 RSpec::Core::RakeTask.new(:spec) do |spec|
   spec.rspec_opts = ['--format doc', '--color']
@@ -32,7 +33,8 @@ end
 
 begin
   require 'cucumber/rake/task'
-  Cucumber::Rake::Task.new(:features)
+  Cucumber::Rake::Task.new(:features) do |f|
+  f.cucumber_opts = "features --format pretty"
 
   # task :features => :check_dependencies
 rescue LoadError
@@ -41,7 +43,7 @@ rescue LoadError
   end
 end
 
-task :default => :spec
+task :default => [:spec, :cucumber]
 
 require 'rdoc/task'
 RDoc::Task.new do |rdoc|

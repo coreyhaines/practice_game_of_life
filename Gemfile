@@ -1,12 +1,11 @@
-source 'http://rubygems.org'
-gem 'cucumber'
-gem 'rspec'
+source :rubygems
 gem 'rake'
 gem 'jeweler'
 gem 'rdoc'
+gem 'rcov'
 
+gem 'rspec'
+gem 'cucumber'
 gem 'guard-rspec'
-# gem 'rb-fsevent'
-# gem 'growl_notify'
-
-# gem 'watchr'
+gem 'guard-cucumber'
+gem 'growl_notify'
