@@ -3,6 +3,7 @@ gem 'rake'
 gem 'jeweler'
 gem 'rdoc'
 gem 'rcov'
+gem 'relish'
 
 gem 'rspec'
 gem 'cucumber'
