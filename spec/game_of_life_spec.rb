@@ -1,7 +1,10 @@
-require 'spec_helper'
-
 describe "GameOfLife" do
-  it "fails" do
-    fail "hey buddy, you should probably rename this file and start specing for real"
+  context 'with single cell' do
+    it 'dies' do
+      board = Board.new
+      cell  = Cell.new(board, 1, 1)
+      board.tick!
+      cell.neighbors.count.should == 0
+    end
   end
 end
