@@ -20,7 +20,7 @@ See the wikipedia article on Conway's Game of Life:
 http://en.wikipedia.org/wiki/Conway%27s_Game_of_Life
 
 See the wiki for Cucumber:
-http://github.com/aslakhellesoy/cucumber
+https://github.com/cucumber/cucumber/wiki/
 
 == Copyright
 
