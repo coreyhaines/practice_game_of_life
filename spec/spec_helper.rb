@@ -1,8 +1,4 @@
-$LOAD_PATH.unshift(File.dirname(__FILE__))
-$LOAD_PATH.unshift(File.join(File.dirname(__FILE__), '..', 'lib'))
 require 'game_of_life'
-require 'rspec'
-require 'rspec/autorun'
 
 RSpec.configure do |config|
   # == Mock Framework
@@ -14,3 +10,4 @@ RSpec.configure do |config|
   # config.mock_with :rr
   config.mock_with :rspec
 end
+
